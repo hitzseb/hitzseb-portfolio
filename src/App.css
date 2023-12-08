@@ -1,0 +1,10 @@
+.skill {
+  width: 7rem; /* Ajusta el tamaño según tus necesidades */
+  height: 7rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease; /* Agrega una transición para suavizar el cambio */
+}
+
+.skill:hover {
+  filter: grayscale(0%);
+}
