@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navbar />
-      <main className="container my-5 py-5">
+      <main className="container">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/skills" element={<Skills />} />
