@@ -9,3 +9,10 @@
 .skill:hover {
   filter: grayscale(0%);
 }
+
+@media (max-width: 768px) {
+  .skill {
+    width: 3rem;
+    height: 3rem;
+  }
+}
