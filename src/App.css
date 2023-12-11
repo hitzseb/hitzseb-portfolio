@@ -1,4 +1,4 @@
-.skill {
+.icon {
   width: 5rem;
   height: 5rem;
   margin:1rem;
@@ -6,12 +6,12 @@
   transition: filter 0.3s ease;
 }
 
-.skill:hover {
+.icon:hover {
   filter: grayscale(0%);
 }
 
 @media (max-width: 768px) {
-  .skill {
+  .icon {
     width: 3rem;
     height: 3rem;
   }
