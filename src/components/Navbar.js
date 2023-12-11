@@ -5,11 +5,11 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
       <div className="container-fluid">
 
-        <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasNavbar2"
+        <div className="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div className="offcanvas-header">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
