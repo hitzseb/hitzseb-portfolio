@@ -1,13 +1,12 @@
 const Projects = () => {
   return (
-    <div className="container my-4">
+    <div className="container my-5">
       <div className="mx-auto" style={{ maxWidth: "40rem" }}>
-        <h2>Chainsaw Man API</h2>
+        <h2>Jfinance | yahoo-finance-api</h2>
         <p className="fs-4 d-none d-md-block">
-          A RESTful API that grants access to comprehensive information about
-          Chainsaw Man.
+          A Java library that provides a simple interface to interact with the Yahoo Finance API and retrieve stock and price chart data.
         </p>
-        <a href="https://chainsawmanapi.pythonanywhere.com/">Check it out</a>
+        <a href="https://github.com/hitzseb/yahoo-finance-api" target="_blank">Check it out</a>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 const Home = () => {
   return (
-    <div className="container my-4">
+    <div className="container my-5">
       <div className="mx-auto" style={{ maxWidth: "40rem" }}>
-        <p className="fs-1">Hi there,👋</p>
-        <p className="fs-1">I'm Sebastian Hitz, a Fullstack Developer.</p>
+        <p className="fs-2">Hi there, 👋</p>
+        <p className="fs-2">I'm Sebastian Hitz, a Fullstack Web Developer based in Argentina.</p>
       </div>
     </div>
   );

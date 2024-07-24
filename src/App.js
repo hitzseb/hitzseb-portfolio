@@ -1,4 +1,4 @@
-import 'bootswatch/dist/lux/bootstrap.min.css';
+import 'bootswatch/dist/pulse/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
 import Navbar from './components/Navbar';
