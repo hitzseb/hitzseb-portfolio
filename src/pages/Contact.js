@@ -7,7 +7,7 @@ function Contact() {
   }
   return (
     <div className="container my-5">
-      <div className="mx-auto" style={{ maxWidth: "35rem" }}>
+      <div className="mx-auto" style={{ maxWidth: "40rem" }}>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">

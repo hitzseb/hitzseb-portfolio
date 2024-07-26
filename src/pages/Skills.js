@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div className="container my-5 text-center">
-      <div className="mx-auto" style={{ maxWidth: "35rem" }}>
+      <div className="mx-auto" style={{ maxWidth: "45rem" }}>
         <img
           className="img-fluid icon"
           src="/images/java-original.svg"
