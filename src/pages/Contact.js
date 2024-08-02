@@ -1,12 +1,16 @@
 import { useForm, ValidationError } from '@formspree/react';
+import useFadeIn from '../hooks/useFadeIn';
 
 function Contact() {
+  const fadeInStyle = useFadeIn(1000);
   const [state, handleSubmit] = useForm("mvgpzdpg");
+
   if (state.succeeded) {
-      return <p className='lead text-center my-5'>Thank you for your message!</p>
+      return <p className='lead text-center my-5 py-5'>Thank you for your message!</p>
   }
+
   return (
-    <div className="container my-5">
+    <div className="container my-5 py-5" style={fadeInStyle}>
       <div className="mx-auto" style={{ maxWidth: "40rem" }}>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">

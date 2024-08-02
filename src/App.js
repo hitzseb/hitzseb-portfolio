@@ -1,5 +1,6 @@
 import 'bootswatch/dist/pulse/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import AnimatedBackground from './components/AnimatedBackgrounds';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -9,11 +10,11 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-
 function App() {
+
   return (
-    <div className="App">
+    <div className="App" style={{ position: 'relative', minHeight: '100vh' }}>
+      <AnimatedBackground />
       <BrowserRouter>
       <Navbar />
       <main className="container">

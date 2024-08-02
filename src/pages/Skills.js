@@ -1,6 +1,10 @@
+import useFadeIn from '../hooks/useFadeIn';
+
 const Skills = () => {
+  const fadeInStyle = useFadeIn(1000);
+
   return (
-    <div className="container my-5 text-center">
+    <div className="container my-5 py-5 text-center" style={fadeInStyle}>
       <div className="mx-auto" style={{ maxWidth: "45rem" }}>
         <img
           className="img-fluid icon"

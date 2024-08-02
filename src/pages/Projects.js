@@ -1,6 +1,10 @@
+import useFadeIn from '../hooks/useFadeIn';
+
 const Projects = () => {
+  const fadeInStyle = useFadeIn(1000);
+
   return (
-    <div className="container my-5">
+    <div className="container my-5 py-5" style={fadeInStyle}>
       <div className="mx-auto" style={{ maxWidth: "40rem" }}>
         <h2>Jfinance | yahoo-finance-api</h2>
         <p className="fs-4 d-none d-md-block">
