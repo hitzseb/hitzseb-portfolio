@@ -4,13 +4,16 @@ const Skills = () => {
   const fadeInStyle = useFadeIn(1000);
   const skills = [
     { src: "/images/java.svg", name: "Java" },
-    { src: "/images/spring.svg", name: "Spring" },
+    { src: "/images/php.svg", name: "PHP" },
     { src: "/images/javascript.svg", name: "JavaScript" },
-    { src: "/images/react.svg", name: "React" },
-    { src: "/images/css.svg", name: "CSS" },
     { src: "/images/html.svg", name: "HTML" },
-    { src: "/images/bootstrap.svg", name: "Bootstrap" },
+    { src: "/images/css.svg", name: "CSS" },
     { src: "/images/mysql.svg", name: "MySQL" },
+    { src: "/images/spring.svg", name: "Spring" },
+    { src: "/images/laravel.svg", name: "Laravel" },
+    { src: "/images/react.svg", name: "React" },
+    { src: "/images/wordpress.svg", name: "Wordpress" },
+    { src: "/images/bootstrap.svg", name: "Bootstrap" },
     { src: "/images/git.svg", name: "Git" }
   ];
 

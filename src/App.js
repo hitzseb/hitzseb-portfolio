@@ -9,12 +9,15 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import useWindowWidth from './hooks/useWindowWith';
 
 function App() {
+  const windowWidth = useWindowWidth();
+  const isLargeScreen = windowWidth > 768;
 
   return (
     <div className="App" style={{ position: 'relative', minHeight: '100vh' }}>
-      <AnimatedBackground />
+      {isLargeScreen && <AnimatedBackground />}
       <BrowserRouter>
       <Navbar />
       <main className="container">
